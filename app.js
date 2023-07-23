@@ -351,7 +351,30 @@ function validating(){
         alert('Order incompleted !.. Fill the Missing Field ')
     }
     else{
-       alert('Order Completed !.. ') 
+       // order status 
+        alert('Order Completed !.. ')
+        // result Panel
+        document.querySelector('#spanName').innerHTML = '';
+        document.querySelector('#spanMobile').innerHTML = '';
+        document.querySelector('#spanCity').innerHTML = '';
+        document.querySelector('#spanStartdate').innerHTML = '';
+        document.querySelector('#spanLastdate').innerHTML = '';
+        document.querySelector('#nooFTv').innerHTML = '';
+        // panel 1 
+        document.querySelector('#userFirstname').value = '';
+        document.querySelector('#userLastname').value = '';
+        document.querySelector('#userMobilenumber').value = '';
+        document.querySelector('#userLandlineNumber').value = '';
+        document.querySelector('#userCity').value = '';
+        document.querySelector('#userPincode').value = '';
+        // panel 2 
+        document.querySelector('#startDate').value = '';
+        document.querySelector('#lastDate').value = '';
+        document.querySelector('#noOfTv').value = '';
+        //panel  3
+        s2function()
+        k2function()
+        m2function(); 
     }
 
 }
