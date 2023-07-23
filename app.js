@@ -372,9 +372,12 @@ function validating(){
         document.querySelector('#lastDate').value = '';
         document.querySelector('#noOfTv').value = '';
         //panel  3
-        s2function()
-        k2function()
-        m2function(); 
+        s2function();
+        k2function();
+        m2function();
+        document.querySelector('#sportPackage').checked = false;
+        document.querySelector('#kidsPackage').checked = false;
+        document.querySelector('#moviesPackage').checked = false;
     }
 
 }
